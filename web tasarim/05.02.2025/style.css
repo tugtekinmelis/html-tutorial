@@ -1,0 +1,82 @@
+body{
+    font-family: "Poppins", serif;
+}
+header{
+    background-color: #252627;
+    color: #ccc;
+    border-bottom: solid 3px red;
+}
+footer{
+    background-color: #252627;
+    color: #ccc;
+}
+#ust-menu a, #dil-menu a, #ana-menu a, .alt-menu a{
+    text-decoration: none;
+    color: #ccc;
+    display: block;
+    padding: 10px;
+    transition: 0.5s;
+}
+#logo{
+    padding: 10px 0;
+    border-bottom: solid #ccc 2px;
+}
+#ana-menu ul{
+    justify-content: center;
+}
+#ana-menu a:hover{
+    background-color: red;
+    color: #ccc;
+    transition: 1s;
+}
+.card img{
+    width: 100%;
+}
+.card{
+    background-color: #252627;
+    padding: 10px;
+    color: #ccc;
+}
+.tur{
+    background-color: red;
+    padding: 10px;
+}
+.yer{
+    padding-top: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+main{
+    background-color: #ccc;
+    padding-bottom: 20px;
+}
+.card{
+    margin: 5px;
+    min-height: 100%;
+}
+#soz{
+    background-color: red;
+    border: solid 5px white;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
+#soz q{
+    font-size: 1.5rem;
+}
+.alt-menu{
+    display: flex;
+}
+
+.icon a{
+    text-decoration: none;
+    color: #ccc;
+    padding: 3px;
+}
+footer a{
+    color: #ccc;
+}
