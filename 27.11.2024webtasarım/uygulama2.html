@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>select ve fieldset kullanımı</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <label for="isim">İsim</label><br>
+            <input type="text" name="isim" id="isim" placeholder="Ad"><br></br>
+            <label for="soyad">Soyad</label><br>
+            <input type="text" name="soyad" id="soyad" placeholder="Soyad"><br></br>
+            <input type="radio" name="cinsiyet" id="kiz">
+            <label for="kiz">Kız</label>
+            <input type="radio" name="cinsiyet" id="erkek">
+            <label for="erkek">Erkek</label>
+            <label for="tarih">Doğum Tarihi</label>
+            <input type="date" name="tarih" id="tarih" value="2024-01-01">
+            
+        </fieldset>
+</body>
+</html>

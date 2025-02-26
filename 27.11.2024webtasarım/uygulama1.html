@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Uygulamaları</title>
+</head>
+<body>
+    <h1>select ve fieldset kullanımı</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <label for="isim">İsim</label><br>
+            <input type="text" name="isim" id="isim" placeholder="Ad"><br><br>
+            <label for="s_isim">Soysim</label><br>
+            <input type="text" name="s_isim" id="s_isim" placeholder="Soyad"><br><br>
+            <!--radio'da name aynı id farklı olacak-->
+            <input type="radio" name="cinsiyet" id="kiz">
+            <label for="kiz">Kız</label>
+            <input type="radio" name="cinsiyet" id="erkek">
+            <label for="erkek">Erkek</label><br><br>
+            <label for="tarih">Doğum Tarihi</label>
+            <input type="date" name="tarih" id="tarih" value="2024-01-01">
+        </fieldset>
+        <fieldset>
+            <legend>Eğitim Bilgileri</legend>
+            <label for="okul">Okul</label><br>
+            <input type="text" id="okul" name="okul"><br><br>
+
+            <label for="sinif">Sınıf</label><br>
+            <input type="text" id="sinif" name="sinif"><br><br>
+
+            <label for="bolum">Bölümünüz</label><br>
+            <select name="bolum" id="bolum">
+                <option value="1">Bilişim Teknolojileri</option>
+                <option value="2">Moda Tasarım</option>
+                <option value="3">Grafik Canlandırma</option>
+            </select><br><br>
+            <button type="submit">Kaydet</button>
+        </fieldset>
+        <fieldset>
+            <legend>Ek Bilgiler</legend>
+            <!--textarea etiketi çok satırlı veri girişi için kullanılır-->
+            <!--textarea için cols tek satırda bulunan karakter sayısını
+            rows ise satır sayısını belirtir.
+            -->
+            <textarea name="not" id="not" cols="50" rows="5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id cum dolorum ipsam magni unde est aut nesciunt similique commodi, esse delectus ea deleniti eveniet? Minus maiores harum molestias vitae vero?</textarea>
+            <br>
+            <input type="checkbox" name="kabul" id="kabul">
+            <label for="kabul">Bilgileri kabul et</label>
+            <input type="checkbox" name="cerez" id="cerez">
+            <label for="cerez">Çerezleri kabul et</label>
+        </fieldset>
+    </form>
+</body>
+</html>
