@@ -1,0 +1,18 @@
+body{
+    background-image:url(res/urunler/bg2.jpg);
+    background-size: cover;
+
+}
+.menu .nav-link{
+    color: black;
+    
+}
+a:hover{
+    background-color:#fdadb5;
+    transition: 1s;
+}
+.card-title{
+    background-color: #fdadb5 ;
+    color: white;
+    width: max-content;
+}
