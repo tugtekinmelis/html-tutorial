@@ -1,57 +1,118 @@
-body,#ust-bolum{
-    background-color: #ecf1f5;}
-header,#ana-menu{
-    background-color:#075192!important;
+:root{
+    --turuncu: #ff5e00;
+    --pembe:rgb(209, 18, 18);
+    --yeşil: #10a01c;
+    --mavi: #075192;
 }
-#ana-menu .nav-link ,#dikey-menu .nav-link ,#liste-baslık{
-    color:white;
+
+header{
+    background-color: #075192;
+    padding-top: 25px;
 }
-#okul-ad h2{
-    color: #0c63a9;
+
+.gri-arkaplan{
+    background-color: #eedddd;
 }
-#okul-ad h5{
-    color: #1295d5;
+
+#ana-menu{
+    background-color: #075192;
 }
-#dikey-menu .list-group-item{
-    background-color: #1295D5;
+
+li .nav-link{
+    color: #fff;
 }
-#liste-baslık{
-    height:70px;
-    font-size: 1.5rem;
+
+.metin h2,h2{
     text-align: center;
-    font-weight: bold;
+
 }
-#slider-baslık{
-    background-color: rgb(0, 0, 0,0.405);
-    color: white;
+
+h5,h2{
+    color: #075192;
+}
+
+.ata-bayrak img{
+ justify-content: center;
+}
+
+.baglanti{
+    font-weight: bold ;
+}
+
+.baglantilar .list-group-item{
+    background-color: #075192;
+    color: #fff;
+    font-size: large;
+}
+
+
+.baglantilar .list-group-item:hover{
+    background-color: #ffffff;
+    color: #00213d;
+}
+
+.slider-aciklama{
+    background-color: #00213da6;
+    color: #fff;
     padding: 10px;
 }
-#haberler-icerik .nav-link ,#Duyurular-icerik .nav-link ,#İşlemler-icerik .nav-link {
-    color: #7b868b;
+
+.carousel-indicators [data-bs-target]{
+    background-color: #00213db6;
+    width: 30px;
+    height: 5px;
+    border: #ffffff solid 2px;
+    padding: 5px;
 }
-#haberler-icerik .nav-link:hover{
-    color: #e91546;
+
+.haber{
+    background-color: var(--pembe);
+    padding: 5px;
+    
 }
-#Duyurular-icerik .nav-link:hover{
-    color: #fc6f22;
+
+.haber h2,.duyuru h2,.islem h2{
+    color: #fff;
+    
+    
 }
-#İşlemler-icerik .nav-link:hover{
-    background-color: #71b908;
+
+.duyuru{
+    background-color: var(--turuncu);
+    padding: 5px;
 }
-#haberler-baslık{
-    background-color: #e91546;
+
+.islem{
+    background-color: var(--yeşil);
+    padding: 5px;
 }
-#Duyurular-baslık{
-    background-color: #fc6f22;
+
+
+.haberler .list-group-item:hover{
+    color: var(--pembe);
 }
-#İşlemler-baslık{
-    background-color: #71b908;
+
+.duyurular .list-group-item:hover{
+    color: var(--turuncu);
 }
-#haberler-baslık ,#Duyurular-baslık ,#İşlemler-baslık{
-    height:60px;
-    text-align: center;
-    line-height: 50px; 
-    font-size: 1.5rem;
-    color: white;
-    border-bottom-right-radius: 30px;
+
+.islemler .list-group-item:hover{
+    color: var(--yeşil);
+}
+
+.devami{
+    background-color: #075192;
+    padding: 10px;
+    margin: 10px;
+    width: 95px;
+}
+
+.devami a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.harita img{
+    background-color: #aca8a8;
 }
