@@ -1,0 +1,56 @@
+body {
+    background-image: url(res/img/2600_Featured_Games.webp);
+    
+}
+
+.bg-blizzard {
+    background-color: #282d43cc
+}
+
+.text-color {
+    color: #eee;
+}
+
+#ana-menu .nav-link {
+    color: #eee;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+footer {
+    padding-top: 100px;
+    background-color: #13192863;
+    height: 300px;
+    font-size: smaller;
+}
+
+.footer-menu .nav-link,
+footer {
+    color: #eee;
+    font-weight: bold;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 50px;
+    border-radius:3px;
+    border:0;
+    
+}
+
+#slider .carousel-caption{
+    width: max-content;
+    padding: 2rem;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  
+
+    top:25%;
+    bottom:25%;
+
+    }
