@@ -1,0 +1,16 @@
+body{
+    color: white;
+}
+input[type="search"]::placeholder{
+    color: var(--bs-white);
+}
+.nav-link{
+    color: white;
+}
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: solid;
+    box-shadow: 0 0 5px #555;
+}
