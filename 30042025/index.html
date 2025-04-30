@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-4">
+    <form action="kaydet.php" method="post">
+        <div class="row">
+        <div class="col-md-6">
+            <label class="form-label" for="ad">Ad</label>
+            <input class="form-control" type="text" id="ad" required>   
+        </div> 
+        <div class="col-md-6">
+            <label class="form-label" for="ad">Soyad</label>
+            <input class="form-control" type="text" id="soyad" required>   
+        </div>
+        <div class="col-md-6">
+            <label class="form-label" for="ad">E-posta</label>
+            <input class="form-control" type="text" id="e-posta" required>   
+        </div>
+        <div class="col-md-6 mt-4">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="tercih" id="sikayet">
+                <label for="sikayet" class="form-label">Şikayet</label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="tercih" id="oneri">
+              <label for="sikayet" class="form-label">Öneri</label>
+              </div>
+        </div>
+        <div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Öneri/Şikayet Metninizi Giriniz...</label>
+          </div>
+          </div>
+          <div>
+            <select class="form-select mt-3" aria-label="Default select example">
+              <option selected disabled>Şehirler</option>
+              <option value="1">İstanbul</option>
+              <option value="2">Elazığ</option>
+              <option value="3">Konya</option>
+            </select>
+          </div>
+          <div>
+            <p>Sevdiğiniz Pastamızı Seçiniz</p>
+          </div>
+          <div>
+            <div class="form-check form-check-inline mt-1">
+              <input class="form-check-input" type="checkbox" value="" id="cikolata">
+              <label class="form-check-label" for="cikolata">
+                Çikolatalı Pasta
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="" id="cilekli">
+              <label class="form-check-label" for="cilekli">
+                Çilekli Pasta
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="" id="muzlu">
+              <label class="form-check-label" for="muzlu">
+                Muzlu Pasta
+              </label>
+            </div>
+          </div>
+          <div class="d-grid gap-2 col-6 mt-2">
+            <button class="btn btn-danger" type="submit">Kaydet</button>
+        </div>  
+        <div class="d-grid gap-2 col-6 mt-2">
+            <button class="btn btn-danger" type="reset">Temizle</button>
+        </div> 
+        </div>
+        </div>
+    </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
