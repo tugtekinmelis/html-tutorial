@@ -1,0 +1,13 @@
+.carousel-indicators button {
+  width: 160px;
+  height: 160px;
+  border-radius: 500%; /* circle shape */
+  background-color: rgba(255, 255, 255, 0.7);
+  
+}
+.carousel-indicators button.active {
+  background-color: #060708; 
+}
+.carousel-indicators button:hover {
+  background-color: #090b0ecc;
+}
