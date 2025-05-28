@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emlak Sitesi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- baglantilar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css" integrity="sha512-xtV3HfYNbQXS/1R1jP53KbFcU9WXiSA1RFKzl5hRlJgdOJm4OxHCWYpskm6lN0xp0XtKGpAfVShpbvlFH3MDAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+    <div class="container col-12">
+        <!-- header bolumu -->
+        <header>
+            <!-- navbar -->
+            <div class="container">
+                <nav class="navbar navbar-expand-lg my-3">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="res/logo.png" alt="Logo" width="50" height="50" class="rounded-circle">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav me-auto">
+                          <li class="nav-item"><a class="nav-link active" href="index.html">Anasayfa</a></li>
+                          <li class="nav-item"><a class="nav-link" href="kiralik.html">Kiralık Daireler</a></li>
+                          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Ara">
+                          <button class="btn btn-outline-secondary" type="submit">Ara</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+              </div>
+        </header>
+        <!-- main bolumu -->
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="res/daire1.jpg" class="d-block w-100" height="600" alt="resim1">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Kiralık Dairelerimiz</h5>
+                              <p class="carousel-text">Konfor, estetik ve işlevselliği bir araya getirdiğimiz kiralık daire seçeneklerimizle size sadece bir ev değil, huzur dolu bir yaşam sunuyoruz. Şehrin merkezi noktalarında yer alan dairelerimiz; modern tasarımı, ferah iç mekânları ve ulaşım kolaylığı ile sizi bekliyor.
+                                Şimdi keşfedin, yeni hayatınıza bir adım daha yaklaşın!</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="res/villa.jpg" class="d-block w-100" height="600" alt="resim2">
+                            <div class="carousel-caption d-none d-md-block ">
+                              <h5>Satılık Villalarımız</h5>
+                              <p>Doğayla İç İçe, Sessiz ve Huzurlu Bir Yaşam Sizi Bekliyor
+                                Güne kuş sesleriyle uyanmak, kendi bahçenizde kahvenizi yudumlamak ister misiniz? Satılık villalarımız doğayla iç içe, temiz havalı ve ferah yaşam alanlarıyla sizi bekliyor.
+                                Hem hafta sonu kaçamağı hem de kalıcı yaşam için ideal.
+                                Şimdi keşfedin, hayatın tadını doğayla birlikte çıkarın.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="res/modern.jpg" class="d-block w-100" height="600" alt="resim3">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Satılık Modern Dairelerimiz</h5>
+                              <p>Şehrin Kalbinde Modern ve Konforlu Bir Yaşam Sizi Bekliyor!
+                                Zamansız tasarımı, fonksiyonel iç planlaması ve yüksek kaliteli malzemeleriyle bu modern daire, sadece bir ev değil; bir yaşam stili sunuyor.
+                                Geniş cam cepheleriyle gün ışığını evinize taşıyan bu özel daire, şehir hayatının tam ortasında ama gürültüsünden uzakta.
+                                Hem yatırıma hem yaşamaya değer. Şimdi yerinizi alın!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    <!-- owl carousel -->
+                    <h2 class="text-center py-2">Kiralık Dairelerimiz</h2>
+                    <div class="owl-carousel owl-theme py-4">
+                        <div class="item"><img src="res/x5_1191147476eo2.jpg" alt="1"></div>
+                        <div class="item"><img src="res/x5_1191147476s7z.jpg" alt="2"></div>
+                        <div class="item"><img src="res/x5_1194694941rlg.jpg" alt="3"></div>
+                        <div class="item"><img src="res/x5_1218316819d6u.jpg" alt="4"></div>
+                        <div class="item"><img src="res/x5_1221740839elc.jpg" alt="5"></div>
+                        <div class="item"><img src="res/x5_1230798934wc9.jpg" alt="6"></div>
+                        <div class="item"><img src="res/x5_1233351621n8i.jpg" alt="7"></div>
+                        <div class="item"><img src="res/x5_1235142301dta.jpg" alt="8"></div>
+                    </div>
+                    <!-- Kiralık Daire Kartları -->
+      <section class="my-5">
+        <h2 class="text-center mb-4">Daire Kartları</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <a href="res/manzaralivilla.jpg" data-lightbox="kiralik" data-title="daire1">
+              <div class="card">
+                <img src="res/manzaralivilla.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Modern Villamız</h5>
+                  <p class="card-text">6+1, 400m², Şehirden Biraz Uzakta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="res/manzaraa.jpg" data-lightbox="kiralik" data-title="daire2">
+              <div class="card">
+                <img src="res/manzaraa.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Manzaralı Daire</h5>
+                  <p class="card-text">4+1, 200m², Deniz Manzarasına Dönük Dairemiz</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="res/daire.jpg" data-lightbox="kiralik" data-title="daire3">
+              <div class="card">
+                <img src="res/daire.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Uygun Fiyatlı Dairemiz</h5>
+                  <p class="card-text">3+1, 130m², Konforlu Merkezi Lokasyonda</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div>
+        <h2 class="text-center py-2">Satılık Dairelerimiz</h2>
+                    <div class="owl-carousel owl-theme py-4">
+                        <div class="item"><img src="res/x5_1191147476eo2.jpg" alt="1"></div>
+                        <div class="item"><img src="res/x5_1191147476s7z.jpg" alt="2"></div>
+                        <div class="item"><img src="res/x5_1194694941rlg.jpg" alt="3"></div>
+                        <div class="item"><img src="res/x5_1218316819d6u.jpg" alt="4"></div>
+                        <div class="item"><img src="res/x5_1221740839elc.jpg" alt="5"></div>
+                        <div class="item"><img src="res/x5_1230798934wc9.jpg" alt="6"></div>
+                        <div class="item"><img src="res/x5_1233351621n8i.jpg" alt="7"></div>
+                        <div class="item"><img src="res/x5_1235142301dta.jpg" alt="8"></div>
+                    </div>
+      </div>
+    </div>
+    </div>
+    </main>
+    <!-- footer baslangici -->
+    <footer class="bg-secondary text-white text-center p-3 mt-5 mb-4">
+        2025 Tüm Haklarımız Saklıdır.
+    </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+         $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+</body>
+</html>
